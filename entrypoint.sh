@@ -10,6 +10,8 @@ git clone ${WEBSITE_GIT}
 
 echo '=================== Publish to GitHub Pages ==================='
 cp mirror/update-center.json update-center-mirror/tsinghua
+ls -hal mirror
+ls -ahl update-center-mirror
 
 cd update-center-mirror && \
 git config user.name "${GITHUB_ACTOR}" && \
