@@ -7,6 +7,7 @@ echo "${GIT_DEPLOY_KEY}" > /root/.ssh/id_rsa && \
 chmod 400 /root/.ssh/id_rsa
 
 echo '=================== Clone website ==================='
+rm -rf update-center-mirror
 git clone ${WEBSITE_GIT}
 
 echo '=================== Publish to GitHub Pages ==================='
