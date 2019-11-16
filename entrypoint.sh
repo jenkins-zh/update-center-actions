@@ -11,7 +11,7 @@ rm -rf update-center-mirror
 git clone ${WEBSITE_GIT}
 
 echo '=================== Publish to GitHub Pages ==================='
-cp mirror/update-center.json update-center-mirror/tsinghua
+cp -R mirror/* update-center-mirror/tsinghua
 ls -hal mirror
 ls -ahl update-center-mirror
 
