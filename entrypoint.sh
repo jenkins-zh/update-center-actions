@@ -16,8 +16,8 @@ ls -hal mirror
 ls -ahl update-center-mirror
 
 cd update-center-mirror && \
-git config user.name "${GITHUB_ACTOR}" && \
-git config user.email "${GITHUB_ACTOR}@users.noreply.github.com" && \
+git config user.name "surenpi" && \
+git config user.email "361981269@qq.com" && \
 git log -3 && \
 git add . && \
 pwd && \
